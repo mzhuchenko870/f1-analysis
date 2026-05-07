@@ -14,8 +14,8 @@ erDiagram
     }
     races {
         int raceId PK
-        int year FK
-        int circuitId FK
+        int year
+        int circuitId
         string name
         date date
     }
@@ -36,46 +36,46 @@ erDiagram
     }
     results {
         int resultId PK
-        int raceId FK
-        int driverId FK
-        int constructorId FK
-        int statusId FK
+        int raceId
+        int driverId
+        int constructorId
+        int statusId
         int positionOrder
         float points
     }
     qualifying {
         int qualifyId PK
-        int raceId FK
-        int driverId FK
-        int constructorId FK
+        int raceId
+        int driverId
+        int constructorId
         string q1
         string q2
         string q3
     }
     lap_times {
-        int raceId FKW
-        int driverId FK
+        int raceId
+        int driverId
         int lap
         string time
     }
     pit_stops {
-        int raceId FK
-        int driverId FK
+        int raceId
+        int driverId
         int stop
         int lap
         string duration
     }
     driver_standings {
         int driverStandingsId PK
-        int raceId FK
-        int driverId FK
+        int raceId
+        int driverId
         float points
         int position
     }
     constructor_standings {
         int constructorStandingsId PK
-        int raceId FK
-        int constructorId FK
+        int raceId
+        int constructorId
         float points
         int position
     }
