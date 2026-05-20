@@ -1,0 +1,120 @@
+1. Drivers — Race Performance
+1.1a Top 10 race winners
+1.1b Most efficient winners — starts per win (min 5 wins)
+1.2a Top 10 drivers — most podiums
+1.2b Most efficient podium-getters — starts per podium (min 5 podiums)
+1.3a Top 10 drivers — most pole positions
+1.3b Most efficient qualifiers — starts per pole (min 5 poles)
+1.4 Driver with longest consecutive race-win streak
+1.5 Driver with longest consecutive podium streak
+1.6 Top 10 drivers — most fastest laps
+1.7 Drivers with a "perfect weekend" (pole + win + fastest lap)
+1.8 Win rate by starting grid position (P1, P2, P3 …) — with named P14–P24 winners
+1.9 Top 10 drivers who won without reaching Q2/Q3
+1.10 Drivers who started last but finished on the podium
+1.11 Drivers who won a race after starting from the pit lane
+1.13 Most frequent race-end statuses excl. "Finished" — share-of-DNFs per year (top 6 + Other, 100%-stacked)
+
+2. Drivers — Career & Milestones
+2.1  Top 10 drivers — most career race starts
+2.1b Top 10 drivers — most career race wins (SQL)
+2.1c Career volume + average finishing position (drivers with 100+ starts, SQL)
+2.2 Drivers who finished every race of a season (100% completion)
+2.3 Top 10 drivers — most DNFs + most common retirement reason
+2.4 Driver who competed for the most different teams
+2.5 Drivers who raced across the most decades
+2.6 Drivers who raced across the most eras
+2.7 Longest gap: first → last win
+2.8 Longest gap: first → last race
+2.9 Drivers who never won a race
+2.10 Drivers who never scored a podium
+2.11 Drivers who never finished in the top 10
+2.12 Youngest & oldest race winners
+2.13 Youngest & oldest race participants, split at year 2000 (pre-2000 vs 2000+)
+2.14 Drivers who scored points on debut race
+2.15 Drivers who scored a podium in their debut season
+2.16 Drivers who won a race in their debut season
+2.17 Drivers who share a last name — Family vs Unrelated namesakes (20-yr career-gap heuristic, top 15 surnames)
+
+3. Drivers — Championship Storylines
+3.1 Drivers who led the standings wire-to-wire (1st place after every Sunday race of the season)
+3.2 Drivers who won the last 3 races of a season but didn't become champion
+3.3 Seasons where the champion did NOT finish the last race of the season
+
+4. Teams / Constructors
+4.1 Champion team by wins per season
+4.2 Champion team by wins per race (all-time)
+4.3 Team with most Q3 appearances/wins
+4.4 Top 5 winners inside each of the top 10 teams
+4.5 Top 10 teams by total number of drivers
+4.6 Top 5 teams that led the constructor standings wire-to-wire
+4.7 Constructor with longest consecutive race-win streak
+4.8 Biggest year-over-year improvement in constructor standings
+4.9 Constructors that never scored a podium
+4.10 Top 10 teams — most total race entries
+4.11 Top 10 teams — fewest total race entries
+4.12 Head-to-head teammate record (most competitive pairs)
+4.13 Head-to-head teammate record (least competitive pairs)
+4.14 Constructor teams per nationality — top 15, annotated with top-winning constructor per country
+
+5. Seasons
+5.1  Maximum possible points each season (per year)
+5.2  Average number of races per year (year-by-year)
+5.2a Average number of races per season, by era
+5.2b Average number of races per season, by decade
+5.3  Closest championship battles (smallest gap champion ↔ runner-up) — raw + % of season max
+5.4  Biggest championship blowouts (largest gap)
+5.5  Seasons with the most different race winners — raw count
+5.5b Distinct-winners ratio across all seasons (era-fair)
+5.5c Most dominant seasons + drivers-vs-teams winner comparison
+5.5d Competitiveness by era (avg driver + team ratios)
+5.6  Seasons where champion had fewer wins than the runner-up
+5.7  Average season start and end dates (day-of-year, all seasons)
+5.8a Average season length per year (days, era-coloured)
+5.8b Average season length grouped by era (days + months)
+5.9  Drivers who finished, per season (avg finishers per race)
+5.10 Average grid size per season (grid > 0)
+5.11 Sprint races over time (2021+)
+
+6. Eras & Rule Changes
+6.1  Best driver per era (by avg finishing position / win rate)
+6.2  Best team per era (wins per constructor per season)
+6.2a All eras on one chart — driver win rate vs year, era-colored (cross-era scatterplot)
+6.2b Era competitiveness gap — P1 vs P10 win-rate spread per era
+6.3  Driver who participated in the most eras
+6.4  Impact of rule changes — beginning vs middle vs end of season
+6.5  Change in points distribution between seasons (normalized for race count)
+6.6  (meta) where to apply mean / mode / variance
+
+7. Circuits
+7.1 How many host cities does each country have? (top 10)
+7.2 Average laps per race, by circuit (top 5 high / low, 1990+)
+7.3 One-shot circuits — every venue that hosted exactly 1 race
+7.4 Top 10 circuits — most races hosted (most popular)
+7.5 Top 10 most dangerous circuits — by avg incidents per race
+7.6 Top 10 circuits — pole→P1 and pole→P2 conversion (1990+)
+7.7 Circuits with most & fewest overtakes per race (1996+, cleaned)
+7.8 Races with the most lead changes (1996+, lap data)
+7.9 Median race finish time per circuit
+7.10 Most successful circuit per driver (top 10 winners)
+7.11 Average pit-stop time per circuit (top 5 high / low, 2011+)
+7.12a Lap-time evolution at top 10 most-raced circuits — finishers (1990+)
+7.12b Lap-time evolution at top 10 most-raced circuits — winners only (1990+)
+
+8. Countries & Nationalities
+8.1 Driver nationalities — top 10 by race entries, split by era
+   8.1a all 9 eras (1950–2025)
+   8.1b modern eras only (V10 / V8 / Hybrid V6, 2000–2025)
+8.2 Driver nationalities — top 10 by podiums / wins / championships (+ top 3 drivers per country, by wins)
+8.3 Nationality breakdown inside the top 10 teams (small-multiples)
+8.4 New driver nationalities arriving per decade
+8.5 Active driver nationalities per season — time series (1950–2024)
+
+9. Pit Stops & Strategy (only cars that finished)
+9.1 How avg pit stops per race changed across seasons / decades / eras
+9.2 Avg pit-stop time per season / decade / era / year
+9.3 Best pit-stop time per season / decade / era
+9.4 Worst pit-stop time per season / decade / era
+9.5 Change in pit-stop time between consecutive periods
+9.6 Difference between avg pit stops per race vs. per season
+9.7 Median pit-stop time per circuit (top 5 high / low)

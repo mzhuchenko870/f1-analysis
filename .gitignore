@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# F1 Analytics project — data not redistributed (download from Kaggle, see README)
+excel/
+f1.db
+
