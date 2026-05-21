@@ -194,7 +194,7 @@ These choices are applied consistently across every notebook:
    races (65%). Highest single-season win rate in the modern era.
 3. **The most "open" era was Era 3 (1968–1982)** — 11 different World
    Champions in 15 seasons. No other era comes close to that diversity.
-4. **Of 861 F1 drivers, only ~14% ever won a race.** Winning is rare even at
+4. **Of 861 F1 drivers, only ~12% ever won a race.** Winning is rare even at
    this level.
 5. **The "youngest race winner" is younger than the "youngest pole sitter."**
    Verstappen won at 18y 7m (Spain 2016); Vettel set the youngest pole at
